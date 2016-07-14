@@ -1,10 +1,6 @@
-(function() {
+var angular = require('angular');
 
-    var angular = require('angular');
+angular.module('app').component('sideBar', {
+    template : require('./side-bar.html')
+});
 
-    angular.module('app').component('sideBar', {
-        template : require('./side-bar.html')
-    });
-
-
-}());
